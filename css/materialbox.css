@@ -1,0 +1,125 @@
+/* IMAGEN MATERIALBOX */
+.materialboxed, .materialboxed1, .materialboxed2, .materialboxed3, .materialboxed4, .materialboxed5, .materialboxed6, .materialboxed7, .materialboxed8, .materialboxed9, 
+.materialboxed10, .materialboxed11, .materialboxed12, .materialboxed13, .materialboxed14, .materialboxed15, .materialboxed16, .materialboxed17, .materialboxed18, .materialboxed19,
+.materialboxed20, .materialboxed21, .materialboxed22, .materialboxed23, .materialboxed24, .materialboxed25, .materialboxed26, .materialboxed27, .materialboxed28, .materialboxed29,
+.materialboxed30, .materialboxed31, .materialboxed32, .materialboxed33, .materialboxed34, .materialboxed35, .materialboxed36, .materialboxed37, .materialboxed38, .materialboxed39,
+.materialboxed40, .materialboxed41, .materialboxed42, .materialboxed43, .materialboxed44, .materialboxed45, .materialboxed46, .materialboxed47, .materialboxed48, .materialboxed49,
+.materialboxed50 {
+  position: relative;
+  cursor: zoom-in;
+  transition: transform 0.4s ease;
+  height: auto;
+}
+
+/* Overlay para Materialbox */
+.materialbox-overlay, .materialbox-overlay1, .materialbox-overlay2, .materialbox-overlay3, .materialbox-overlay4, .materialbox-overlay5, .materialbox-overlay6, .materialbox-overlay7, 
+.materialbox-overlay8, .materialbox-overlay9, .materialbox-overlay10, .materialbox-overlay11, .materialbox-overlay12, .materialbox-overlay13, .materialbox-overlay14, .materialbox-overlay15, 
+.materialbox-overlay16, .materialbox-overlay17, .materialbox-overlay18, .materialbox-overlay19, .materialbox-overlay20, .materialbox-overlay21, .materialbox-overlay22, 
+.materialbox-overlay23, .materialbox-overlay24, .materialbox-overlay25, .materialbox-overlay26, .materialbox-overlay27, .materialbox-overlay28, .materialbox-overlay29, .materialbox-overlay30, 
+.materialbox-overlay31, .materialbox-overlay32, .materialbox-overlay33, .materialbox-overlay34, .materialbox-overlay35, .materialbox-overlay36, .materialbox-overlay37, 
+.materialbox-overlay38, .materialbox-overlay39, .materialbox-overlay40, .materialbox-overlay41, .materialbox-overlay42, .materialbox-overlay43, .materialbox-overlay44, .materialbox-overlay45, 
+.materialbox-overlay46, .materialbox-overlay47, .materialbox-overlay48, .materialbox-overlay49, .materialbox-overlay50 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+  display: none;
+}
+
+/* Botón de cierre para Materialbox */
+.materialbox-close, .materialbox-close1, .materialbox-close2, .materialbox-close3, .materialbox-close4, .materialbox-close5, .materialbox-close6, .materialbox-close7, .materialbox-close8, 
+.materialbox-close9, .materialbox-close10, .materialbox-close11, .materialbox-close12, .materialbox-close13, .materialbox-close14, .materialbox-close15, .materialbox-close16, .materialbox-close17, 
+.materialbox-close18, .materialbox-close19, .materialbox-close20, .materialbox-close21, .materialbox-close22, .materialbox-close23, .materialbox-close24, .materialbox-close25, .materialbox-close26, 
+.materialbox-close27, .materialbox-close28, .materialbox-close29, .materialbox-close30, .materialbox-close31, .materialbox-close32, .materialbox-close33, .materialbox-close34, .materialbox-close35, 
+.materialbox-close36, .materialbox-close37, .materialbox-close38, .materialbox-close39, .materialbox-close40, .materialbox-close41, .materialbox-close42, .materialbox-close43, 
+.materialbox-close44, .materialbox-close45, .materialbox-close46, .materialbox-close47, .materialbox-close48, .materialbox-close49, .materialbox-close50 {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  z-index: 1000;
+  font-size: 3.5rem;
+  color: white;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 60px;
+  height: 60px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  display: none;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.3s ease;
+}
+
+/* Mostrar el botón de cierre */
+.materialbox-close.show, .materialbox-close1.show1, .materialbox-close2.show2, .materialbox-close3.show3, .materialbox-close4.show4, .materialbox-close5.show5, 
+.materialbox-close6.show6, .materialbox-close7.show7, .materialbox-close8.show8, .materialbox-close9.show9, .materialbox-close10.show10, .materialbox-close11.show11, 
+.materialbox-close12.show12, .materialbox-close13.show13, .materialbox-close14.show14, .materialbox-close15.show15, .materialbox-close16.show16, .materialbox-close17.show17, 
+.materialbox-close18.show18, .materialbox-close19.show19, .materialbox-close20.show20, .materialbox-close21.show21, .materialbox-close22.show22, .materialbox-close23.show23, 
+.materialbox-close24.show24, .materialbox-close25.show25, .materialbox-close26.show26, .materialbox-close27.show27, .materialbox-close28.show28, .materialbox-close29.show29, 
+.materialbox-close30.show30, .materialbox-close31.show31, .materialbox-close32.show32, .materialbox-close33.show33, .materialbox-close34.show34, .materialbox-close35.show35, 
+.materialbox-close36.show36, .materialbox-close37.show37, .materialbox-close38.show38, .materialbox-close39.show39, .materialbox-close40.show40, .materialbox-close41.show41, 
+.materialbox-close42.show42, .materialbox-close43.show43, .materialbox-close44.show44, .materialbox-close45.show45, .materialbox-close46.show46, .materialbox-close47.show47, 
+.materialbox-close48.show48, .materialbox-close49.show49, .materialbox-close50.show50 {
+  display: block;
+  opacity: 1;
+  transform: scale(1);
+  animation: bounceIn 0.6s ease;
+}
+
+/* Hover en botón de cierre */
+.materialbox-close:hover, .materialbox-close1:hover, .materialbox-close2:hover, .materialbox-close3:hover, .materialbox-close4:hover, .materialbox-close5:hover, 
+.materialbox-close6:hover, .materialbox-close7:hover, .materialbox-close8:hover, .materialbox-close9:hover, .materialbox-close10:hover, .materialbox-close11:hover, 
+.materialbox-close12:hover, .materialbox-close13:hover, .materialbox-close14:hover, .materialbox-close15:hover, .materialbox-close16:hover, .materialbox-close17:hover, 
+.materialbox-close18:hover, .materialbox-close19:hover, .materialbox-close20:hover, .materialbox-close21:hover, .materialbox-close22:hover, .materialbox-close23:hover, 
+.materialbox-close24:hover, .materialbox-close25:hover, .materialbox-close26:hover, .materialbox-close27:hover, .materialbox-close28:hover, .materialbox-close29:hover, 
+.materialbox-close30:hover, .materialbox-close31:hover, .materialbox-close32:hover, .materialbox-close33:hover, .materialbox-close34:hover, .materialbox-close35:hover, 
+.materialbox-close36:hover, .materialbox-close37:hover, .materialbox-close38:hover, .materialbox-close39:hover, .materialbox-close40:hover, .materialbox-close41:hover, 
+.materialbox-close42:hover, .materialbox-close43:hover, .materialbox-close44:hover, .materialbox-close45:hover, .materialbox-close46:hover, .materialbox-close47:hover, 
+.materialbox-close48:hover, .materialbox-close49:hover, .materialbox-close50:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #ff0000;
+  transform: scale(1.2);
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.5);
+}
+
+/* Animación de apertura */
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  80% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Ajustes en pantallas pequeñas */
+@media (max-width: 600px) {
+  .materialbox-close, .materialbox-close1, .materialbox-close2, .materialbox-close3, .materialbox-close4, .materialbox-close5, .materialbox-close6, .materialbox-close7, 
+  .materialbox-close8, .materialbox-close9, .materialbox-close10, .materialbox-close11, .materialbox-close12, .materialbox-close13, .materialbox-close14, .materialbox-close15, 
+  .materialbox-close16, .materialbox-close17, .materialbox-close18, .materialbox-close19, .materialbox-close20, .materialbox-close21, .materialbox-close22, .materialbox-close23, 
+  .materialbox-close24, .materialbox-close25, .materialbox-close26, .materialbox-close27, .materialbox-close28, .materialbox-close29, .materialbox-close30, .materialbox-close31, 
+  .materialbox-close32, .materialbox-close33, .materialbox-close34, .materialbox-close35, .materialbox-close36, .materialbox-close37, .materialbox-close38, .materialbox-close39, 
+  .materialbox-close40, .materialbox-close41, .materialbox-close42, .materialbox-close43, .materialbox-close44, .materialbox-close45, .materialbox-close46, .materialbox-close47, 
+  .materialbox-close48, .materialbox-close49, .materialbox-close50 {
+    top: 30px;
+    right: 40px;
+    font-size: 2.5rem;
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+  }
+}
